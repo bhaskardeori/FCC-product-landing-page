@@ -1,0 +1,105 @@
+#form-container , form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: auto;
+}
+
+
+#info {
+    width: 50em;
+    background: linear-gradient(35deg, #e4e3d4, #bfd9ec);
+}
+
+
+@media (max-width: 576px) {
+    header, nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media (max-width: 576px) {
+    #info {
+        width: auto;
+    }
+}
+
+footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+
+.meat-type {
+    font-size: 2.5em;
+    font-weight: bold;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background: linear-gradient(35deg, #f1feff, #91daec)
+    
+}
+
+.item-img {
+    border-radius: 50%;
+}
+
+span {
+    font-size: 2.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    text-shadow: 1px 1px 2px rgb(9, 86, 138);
+}
+
+.select-button {
+    font-size: 1.2em;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+header, footer {
+    background: linear-gradient(35deg, #fffeee, #74a2c7);
+}
+
+reference , a:link, a:visited {
+    font-size: larger;
+    color: black;
+}
+
+body {
+    font-family: 'Nanum Gothic', sans-serif;
+    background: linear-gradient(35deg, #fffeee, #cde5f8);
+}
+
+marquee {
+    background-color: rgb(170, 217, 248);
+    opacity: 0.4;
+}
+
+button {
+    font-size: medium;
+}
+
+.icons-img {
+    width: 30px;
+    height: 30px;
+}
+
+.h1-shadow {
+    text-shadow: 1px 1px 2px rgb(248, 239, 239), 0 0 1em rgb(24, 24, 41), 0 0 0.2em rgb(13, 13, 37);
+}
+
+#email {
+    width: 20em;
+}
+
+
+
+
+
