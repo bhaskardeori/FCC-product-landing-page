@@ -100,6 +100,18 @@ button {
 }
 
 
+@media (max-width: 576px) {
+    .meat-type {
+        font-size: 1.8em;
+    }
+    span {
+        font-size: 1.5em;
+    }
+    main h1 {
+        text-align: center;
+    }
+}
+
 
 
 
